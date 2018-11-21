@@ -1,0 +1,23 @@
+{
+  "localaddr": ":10080",
+  "remoteaddr": "xxx.xx.xxx.xx:6443",
+  "mode": "fast2",
+  "mtu": 1350,
+  "sndwnd": 1024,
+  "rcvwnd": 128,
+  "datashard": 10,
+  "crypt": "none",
+  "parityshard": 10,
+  "conn": 2,
+  "keepalive": 10,
+  "dscp": 46,
+  "scavengettl": 600,
+  "interval": 30,
+  "sockbuf": 4194304,
+  "socket_to_http_proxy": [
+    [
+      "127.0.0.1:10899",
+      ":8198"
+    ]
+  ]
+}
